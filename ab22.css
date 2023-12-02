@@ -1,0 +1,91 @@
+header{
+    font-family: Arial, sans-serif;
+  position: fixed;
+  top: 0;
+   left:0;
+
+  width: 100%;
+}
+body{
+    background-image: url('/images/backgroubd1.jpg');
+    background-size: cover;
+}
+.topbar {
+    background-color: #a0d2eb;
+    color: rgb(12, 13, 13);
+border-radius:20px;
+
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header h1 {
+    font-size: 24px;
+ 
+}
+
+
+  nav ul {
+    list-style: none;
+    display: flex;
+
+   }
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration:dashed;
+    color:;
+    font-weight: 300;
+
+}
+/* Vibrant and Creative CSS for the About Us page */
+.about-us-page {
+  
+    background: #a28089 ;
+margin:100px;
+border:50px;
+border-radius:100px;
+    padding: 100px;
+ padding-bottom: 180px;
+
+    text-align: center;
+}
+
+.about-us-page h1 {
+    font-size: 36px;
+text-align: center;
+}
+#r{
+ background: linear-gradient(to right, rgb(62, 81, 89), rgb(235, 213, 217));
+margin-left:300px;
+margin-right:300px;
+border-radius:10px;
+
+
+}
+
+.about-us-content {
+    max-width: 800px;
+    margin: 0 auto;
+border-radius:100px;
+    text-align: left;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-content p {
+    margin-bottom: 20px;
+}
+/* footer css*/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Login</title>
+    <link rel="icon" href="/images/logo.png">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+<div class="topbar">
+        <h1>Hotel Golden Palace®</h1>
+        <nav>
+            <ul>
+                <li><a href="main.html"><b>⌂</b>Home</a></d></li>
+            <li><a href="aboutus22.html">About Us</a></li>
+            <li><a href="login.html">LogIn</a></li>
+            <li><a href="Bookings.html">Bookings</a></li>
+            <li><a href="ContactUs.html"><b><img src="/images/phone-call.png"></b>Contact Us</a></li>
+            </ul>
+        </nav>
+</div>
+       
+    </header>
+
+   <!-- Existing code from the previous example -->
+
+<section class="login">
+    <div class="login-form">
+        <h2>customer Login</h2>
+        <form action="customer-login.php" method="post">
+            <label for="customer-username">Username</label>
+            <input type="text" id="customer-username" name="customer-username" required>
+            
+            <label for="customer-password">Password</label>
+            <input type="password" id="customer-password" name="customer-password" required>
+            
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    
+    <div class="login-form">
+        <h2>Staff Login</h2>
+        <form action="Staff-login.php" method="post">
+            <label for="Staff-username">Username</label>
+            <input type="text" id="Staff-username" name="Staff-username" required>
+            
+            <label for="Staff-password">Password</label>
+            <input type="password" id="Staff-password" name="Staff-password" required>
+            
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</section>
+
+<!-- Existing code from the previous example -->
+
+
+    <footer>
+         <p>&copy; 2023 Hotel Golden Palace®</p>
+<p>Feedback</p>
+    </footer>
+</body>
+</html>

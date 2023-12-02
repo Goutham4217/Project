@@ -1,0 +1,163 @@
+header{
+    font-family: Arial, sans-serif;
+  position: fixed;
+  top: 0;
+   left:0;
+  width: 100%;
+}
+body{
+    background-image: url('/images/backgroubd1.jpg');
+    background-size: cover;
+}
+.topbar {
+    background-color: rgb(244, 238, 238);
+    color: red;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header h1 {
+    font-size: 24px;
+ 
+}
+
+
+  nav ul {
+    list-style: none;
+    display: flex;
+
+   }
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color:orange;
+    font-weight: 600;
+
+}
+/* CSS for the Admissions page */
+.qu{
+
+font-size:20px;
+position:fixed;
+top:90px;
+
+}
+.Bookings-page {
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 5px;
+    max-width: 800px; /* Limit the maximum width for the content */
+}
+
+.Bookings-page h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+
+.Bookingss-info, .Bookingss-process, .Discounts{
+    margin: 20px 0;
+}
+
+.Bookingss-info h2, .Bookings-process h2, .Discounts h2{
+    font-size: 24px;
+}
+
+.Bookingss-process ul{
+    list-style-type: disc;
+    margin-left: 20px;
+}
+ /* form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 50%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+input[type="radio"],
+select {
+    margin-top: 10px;
+}
+
+button.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+button.registerbtn:hover {
+    background-color: #45a049;
+}
+
+/* Footer styles */
+footer {
+    background-color: #a3699a;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Marquee styles */
+.qu {
+    font-size: 20px;
+    color: #FFD700; /* Gold color */
+} */
+
+form {
+    text-align: left;
+    width: 50%; /* Set the form width to 50% */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+.container {
+    text-align: center; /* Center the content within the container */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 20%; /* Reset the width to 100% to fill the form container */
+    padding: 10px;
+    margin-top: 15px;
+}
+
+input[type="radio"],
+select {
+    margin-top: 10px;
+}
+
+button.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button.registerbtn:hover {
+    background-color: #45a049;
+}

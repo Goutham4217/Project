@@ -1,0 +1,106 @@
+/* Existing CSS from the previous example */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/images/background3.html');
+}
+
+/* Header Styles */
+header{
+    font-family: Arial, sans-serif;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.topbar {
+    background-color: rgb(39, 38, 116);
+    color: red;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header h1 {
+    font-size: 24px;
+ 
+}
+
+
+  nav ul {
+    list-style: none;
+    display: flex;
+
+   }
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color:orange;
+    font-weight: 600;
+
+}
+/* body */
+body{
+
+}
+/* Login Section Styles */
+.login {
+    display: flex;
+    justify-content: space-around;
+    margin: 150px 0;
+}
+
+.login-form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 45%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.login h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.login label {
+    display: block;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.login input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login button {
+    background-color: #007ACC;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+/* footer css*/
+footer {
+    background-color: #412977;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Existing CSS from the previous example */
